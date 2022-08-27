@@ -1,17 +1,16 @@
 import React from "react";
-import data from "./data";
 import User from "./User";
 
-function UsersList () {
+function UsersList() {
 
 
-    return(
+    return (
         <>
-        user list
+            user list
             <br/>
             ---------------
             <br/>
-        <User />
+            <User/>
         </>
     )
 }
