@@ -12,7 +12,6 @@ function User({person}) {
             Name: {name}
             <br/>
             Age: {age}
-
         </>
     )
 }
