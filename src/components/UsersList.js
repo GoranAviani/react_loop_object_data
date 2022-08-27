@@ -1,7 +1,7 @@
 import React from "react";
 import data from "./data";
 
-function User () {
+function UsersList () {
 
 
     return(
