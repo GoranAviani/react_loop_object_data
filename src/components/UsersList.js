@@ -10,7 +10,11 @@ function UsersList() {
             <br/>
             ---------------
             <br/>
-            <User/>
+            {data.map((person) => {
+                const {id, name, age, image} = person;
+                <User/>
+            })}}
+
         </>
     )
 }
