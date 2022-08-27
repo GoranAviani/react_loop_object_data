@@ -6,6 +6,7 @@ function User({person}) {
 
     return (
         <>
+            <br/>
             ID: {id}
             <br/>
             Name: {name}
