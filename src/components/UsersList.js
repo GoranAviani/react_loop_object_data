@@ -1,14 +1,16 @@
 import React from "react";
 import data from "./data";
 
+
 function UsersList () {
 
 
     return(
         <>
-        user
+        user list
+
         </>
     )
 }
 
-export default User;
+export default UsersList;
