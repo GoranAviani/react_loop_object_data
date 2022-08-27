@@ -12,11 +12,13 @@ function UsersList() {
             <br/>
             ---------------
             <br/>
+            ********************
             {people.map((person) => {
                 return (
                     <>
                         <User person={person}/>
-
+                        <br/>
+                        *************************
                     </>
                 )
             })}
