@@ -12,7 +12,14 @@ function UsersList() {
             <br/>
             ---------------
             <br/>
-            <User people={people}/>
+            {people.map((person) => {
+                return (
+                    <>
+                        <User person={person}/>
+
+                    </>
+                )
+            })}
 
         </>
     )

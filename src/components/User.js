@@ -1,20 +1,15 @@
 import React from "react";
 
-function User({people}) {
-    console.log(people)
-
+function User({person}) {
+    console.log(person)
+    const {id, name, age, image} = person;
 
     return (
         <>
-            {people.map((person) => {
-                const {id, name, age, image} = person;
-                return (
-                    <>
-                        Name: {name}
-                        <br/>
-                    </>
-                )
-            })}
+
+            Name: {name}
+            <br/>
+
         </>
     )
 }
