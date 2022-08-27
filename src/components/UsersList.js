@@ -1,5 +1,6 @@
 import React from "react";
 import User from "./User";
+import data from "./data";
 
 function UsersList() {
 
@@ -11,9 +12,8 @@ function UsersList() {
             ---------------
             <br/>
             {data.map((person) => {
-                const {id, name, age, image} = person;
-                <User/>
-            })}}
+                <User person={person}/>;
+            })}
 
         </>
     )

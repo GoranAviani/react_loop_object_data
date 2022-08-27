@@ -1,10 +1,13 @@
 import React from "react";
 
-function User() {
+function User({person}) {
+    console.log(person)
+    const {id, name, age, image} = person;
 
 
     return (
-        <> User
+        <>
+            Name: {name}
         </>
     )
 }
