@@ -1,13 +1,12 @@
 import React from "react";
 
-function User () {
+function User() {
 
 
-    return(
+    return (
         <> User
         </>
     )
 }
-
 
 export default User;
