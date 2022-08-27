@@ -6,9 +6,11 @@ function User({person}) {
 
     return (
         <>
-
+            ID: {id}
+            <br/>
             Name: {name}
             <br/>
+            Age: {age}
 
         </>
     )
